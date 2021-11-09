@@ -1,0 +1,31 @@
+{
+  "name": "kopay",
+  "type": "module",
+  "scripts": {
+    "start": "dotenv -- bin/start.js"
+  },
+  "dependencies": {
+    "@googleapis/calendar": "^0.2.0",
+    "@supabase/supabase-js": "^1.25.1",
+    "bufferutil": "^4.0.5",
+    "camelcase-keys": "^7.0.1",
+    "chalk": "^4.1.2",
+    "date-fns": "^2.25.0",
+    "dicebag": "^0.1.2",
+    "discord.js": "^13.2.0",
+    "express": "^4.17.1",
+    "friendly-node-cron": "^1.4.1",
+    "node-cron": "^3.0.0",
+    "shellwords": "^0.1.1",
+    "utf-8-validate": "^5.0.7",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^4.0.0",
+    "eslint": "^8.2.0",
+    "prettier": "^2.4.1"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
